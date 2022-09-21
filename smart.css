@@ -1,0 +1,121 @@
+form{
+    margin-left: 5%;
+}
+img{
+  width:50%;
+  height:50%;
+  margin-left: 20%;
+}
+.container {
+  display:flex;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position:absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left:0;
+  margin-right: 30px;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+.checked {
+  color: orange;
+}
+.filter{
+  width:300px;
+  height: 500px;
+  color: #2196F3;
+  padding-left: 0px;
+}
+.filter h4{
+  color: black;
+  background-color: antiquewhite;
+  background-size: cover;
+  text-align:center;
+  font-weight: 700;
+  font-family: Arial;
+
+}
+.filter h2{
+  color: aquamarine;
+  background-color:black;
+  background-size: cover;
+  text-align: center;
+  font-weight: 900;
+  font-family: Arial;
+}
+.row{
+  margin-left:0%;
+  width: 70%;
+  height: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.heading{
+  color: white;
+  font-family:Arial;
+  font-weight: 900;
+  background-color: brown;
+  background-size:20%;
+}
+div{
+  float:left;
+  margin-left:3%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+}
+.column{
+  height: 50%;
+  width: 47%;
+}

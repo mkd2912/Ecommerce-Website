@@ -1,0 +1,57 @@
+.pdescription {
+    position: relative;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+  }
+  
+  .pdescription .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+
+  
+    /* Position the tooltip */
+    position:absolute;
+    z-index: 1;
+  }
+  
+  .pdescription:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+img{
+    opacity: 10;
+    width: 100%;
+}
+span{
+    background-color:coral;
+    font-family:Arial;
+    font-weight: 600;
+}
+#message{
+    float: left;
+    width: 100%;
+    min-height: 75px;
+    outline: none;
+    resize: none;
+    border: 1px solid black;
+}
+.container{
+  background-color:whitesmoke;
+}
+img{
+  opacity: 3;
+  width: 100%;
+  height: auto;
+}
+.heading{
+  color: white;
+  font-family:Arial;
+  font-weight: 900;
+  background-color: brown;
+  background-size:20%;
+}

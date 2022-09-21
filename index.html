@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="SHOP.png" type="image/png">
+    <title>EShop.com</title>
+    <link rel="stylesheet" href="style.css">
+    <!--designing social media-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="SHOP.png" alt="">
+        </div>
+        <ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="mobile.html">Buy CellPhone</a></li>
+            <li class="item"><a href="laptop.html">Buy Laptop</a></li>
+            <li class="item"><a href="smartv.html">Buy SmartTV</a></li>
+        </ul>
+        <div class="search-container">
+          <input type="text" placeholder=" Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+    </nav>
+<div class="container">
+    <section id="home">
+        <h1 class="head"><marquee width="100%" direction="up" scrollamount="3" height="200px">Welcome to E-SHOP</marquee></h1>
+    </section>
+</div>
+<button class="open-button" onclick="openForm()"><b>SignIn/JoinUs</b></button>
+
+<div class="form-popup" id="myForm">
+  <form action="" class="form-container">
+    <h3><b>Login</b></h3>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+    <strong>Or Login with</strong>
+    <button type="submit" class="twitter btn">
+      <i class="fa fa-twitter fa-fw" aria-hidden="true"></i> Login with Twitter
+      </button>
+      <button type="submit" class="fb btn">
+      <i class="fa fa-facebook fa-fw" aria-hidden="true"></i> Login with Facebook</button>
+      <button type="submit" class="google btn">
+        <i class="fa fa-google fa-fw" aria-hidden="true"></i> Login with Google</button>
+     <strong>Or</strong>&nbsp;<a href="form.html" style="color:dodgerblue"><b>Sign Up here</b></a>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+</html>
