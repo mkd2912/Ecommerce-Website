@@ -8,6 +8,8 @@
     <!--Rating style-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -92,7 +94,7 @@
 <div class="row">
     <div class="column">
     <img src="https://m.media-amazon.com/images/I/811S0pjxeJL._SX679_.jpg">
-    <h3 style="color: blue;">Price - ₹32,999</h3>
+    <h3 style="color: rgb(255, 0, 0);text-shadow:2px 2px 4px #6359ef">Price - ₹32,999</h3>
     <p><h4>OnePlus 126 cm (50 inches) Y Series 4K Ultra HD Smart Android LED TV 50Y1S Pro (Black)</h4></p>
     <p>4K Ultra HD (3840x2160)<br>
         Bezel-less Design<br>
@@ -102,13 +104,19 @@
         1 LED TV, 2 Table Stand Base<br>
         Wi-Fi, USB, Ethernet, HDMI connector<br>
         <a href="">See more</a>
-        <pre style="opacity: 0%;"></pre>
     </p>
-    <h3 style="color: indianred;background-color: yellow;text-align: center;font-weight:800"><a href="https://www.amazon.in/OnePlus-50-inches-Android-Pro/dp/B0B3MMYHYW/ref=sr_1_2_sspa?crid=29ICPREUTMELD&keywords=smart+tv&qid=1663768752&sprefix=smart%2Caps%2C358&sr=8-2-spons&psc=1"; alt="Apple">BUY NOW</a></h3>
-</div>
+    <button type="button" 
+                class="btn btn-default btn-sm" style="background-color:cyan;" onclick="alertFunction()">
+                <span class="glyphicon 
+                    glyphicon-shopping-cart">
+                </span>
+                <b style="font-weight: 800"> Add to Cart </b>
+    </button>
+    <a href="https://www.amazon.in/OnePlus-50-inches-Android-Pro/dp/B0B3MMYHYW/ref=sr_1_2_sspa?crid=29ICPREUTMELD&keywords=smart+tv&qid=1663768752&sprefix=smart%2Caps%2C358&sr=8-2-spons&psc=1" class="btn  btn-primary float-right" data-abc="true"> Buy now </a>
+    </div>
 <div class="column">
     <img src="https://m.media-amazon.com/images/I/71a4ZQNqTiL._SX679_.jpg">
-    <h3 style="color: blue;">Price - ₹15,490</h3>
+    <h3 style="color: rgb(255, 0, 0);text-shadow:2px 2px 4px #6359ef">Price - ₹15,490</h3>
     <p><h4>Samsung 80 cm (32 Inches) Wondertainment Series HD Ready LED Smart TV UA32T4340BKXXL (Glossy Black)</h4></p>
     <p>HD Ready (1366x768)<br>
         1 year comprehensive warranty<br>
@@ -118,13 +126,19 @@
         1 LED TV, 1 User Manual, 1 Warranty Card<br>
         Wi-Fi, USB, Ethernet, HDMI<br>
     <a href="">See more</a>
-    <br>
-    <h3 style="color: indianred;background-color: yellow;text-align: center;font-weight:800"><a href="https://www.amazon.in/Samsung-Inches-Wondertainment-UA32T4340BKXXL-Glossy/dp/B09F6S8BT6/ref=sr_1_9?crid=29ICPREUTMELD&keywords=smart+tv&qid=1663768752&sprefix=smart%2Caps%2C358&sr=8-9">BUY NOW</a></h3>
-
+    </p>
+    <button type="button" 
+                class="btn btn-default btn-sm" style="background-color:cyan;" onclick="alertFunction()">
+                <span class="glyphicon 
+                    glyphicon-shopping-cart">
+                </span>
+                <b style="font-weight: 800"> Add to Cart </b>
+    </button>
+    <a href="https://www.amazon.in/Samsung-Inches-Wondertainment-UA32T4340BKXXL-Glossy/dp/B09F6S8BT6/ref=sr_1_9?crid=29ICPREUTMELD&keywords=smart+tv&qid=1663768752&sprefix=smart%2Caps%2C358&sr=8-9" class="btn  btn-primary float-right" data-abc="true"> Buy now </a>
 </div>
 <div class="column">
     <img src="https://m.media-amazon.com/images/I/91OzzQSg47L._SX679_.jpg">
-    <h3 style="color: blue;">Price - ₹30,990</h3>
+    <h3 style="color: rgb(255, 0, 0);text-shadow:2px 2px 4px #6359ef">Price - ₹30,990</h3>
     <p><h4>LG 108 cm (43 inches) 4K Ultra HD Smart LED TV 43UQ7500PSF (Ceramic Black)</h4></p>
     <p>4K Ultra HD (3840x2160)<br>
         1 Year LG India Comprehensive<br>
@@ -135,11 +149,18 @@
         Bluetooth, Wi-Fi, USB, HDMI<br>
         <a href="">See more</a>
     </p>
-    <h3 style="color: indianred;background-color: yellow;text-align: center;font-weight:800"><a href="https://www.amazon.in/LG-inches-Ultra-43UQ7500PSF-Ceramic/dp/B0B3XY5YT4/ref=sr_1_11_sspa?crid=29ICPREUTMELD&keywords=smart%2Btv&qid=1663768752&sprefix=smart%2Caps%2C358&sr=8-11-spons&th=1">BUY NOW</a></h3>
-</div>
+    <button type="button" 
+                class="btn btn-default btn-sm" style="background-color:cyan;" onclick="alertFunction()">
+                <span class="glyphicon 
+                    glyphicon-shopping-cart">
+                </span>
+                <b style="font-weight: 800"> Add to Cart </b>
+    </button>
+    <a href="https://www.amazon.in/LG-inches-Ultra-43UQ7500PSF-Ceramic/dp/B0B3XY5YT4/ref=sr_1_11_sspa?crid=29ICPREUTMELD&keywords=smart%2Btv&qid=1663768752&sprefix=smart%2Caps%2C358&sr=8-11-spons&th=1" class="btn  btn-primary float-right" data-abc="true"> Buy now </a>
+    </div>
 <div class="column">
     <img src="https://m.media-amazon.com/images/I/71vZLIfj5yS._SX679_.jpg">
-    <h3 style="color: blue;">Price - ₹24,999</h3>
+    <h3 style="color: rgb(255, 0, 0);text-shadow:2px 2px 4px #6359ef">Price - ₹24,999</h3>
     <p><h4>OnePlus 108 cm (43 inches) Y Series Full HD LED Smart Android TV 43Y1 (Black)</h4></p>
     <p>Full HD (1920x1080)<br>
         1 year comprehensive warranty<br>
@@ -150,10 +171,21 @@
         Wi-Fi<br>
         <a href="">See more</a>
     </p>
-    <h3 style="color: indianred;background-color: yellow;text-align: center;font-weight:800"><a href="https://www.amazon.in/HP-Micro-Edge-Graphics-Speakers-14s-dy5005TU/dp/B0B5B4M47C/ref=sr_1_18?crid=SMY9XFYH8DK7&keywords=laptop&qid=1663692665&sprefix=%2Caps%2C771&sr=8-18">BUY NOW</a></h3>
-</div>
+    <button type="button" 
+                class="btn btn-default btn-sm" style="background-color:cyan;" onclick="alertFunction()">
+                <span class="glyphicon 
+                    glyphicon-shopping-cart">
+                </span>
+                <b style="font-weight: 800"> Add to Cart </b>
+    </button>
+    <a href="https://www.amazon.in/HP-Micro-Edge-Graphics-Speakers-14s-dy5005TU/dp/B0B5B4M47C/ref=sr_1_18?crid=SMY9XFYH8DK7&keywords=laptop&qid=1663692665&sprefix=%2Caps%2C771&sr=8-18" class="btn  btn-primary float-right" data-abc="true"> Buy now </a>
+    </div>
 
 </div>
- 
+<script type="text/javascript">
+    function alertFunction(){
+        swal("Congrats!", "Item is added to your cart", "success");
+ }
+ </script>
 </body>
 </html>

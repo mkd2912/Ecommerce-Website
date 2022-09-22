@@ -22,11 +22,6 @@
   .pdescription:hover .tooltiptext {
     visibility: visible;
   }
-  
-img{
-    opacity: 10;
-    width: 100%;
-}
 span{
     background-color:coral;
     font-family:Arial;
@@ -41,12 +36,14 @@ span{
     border: 1px solid black;
 }
 .container{
-  background-color:whitesmoke;
+  background-color:rgb(189, 218, 237)
 }
 img{
   opacity: 3;
-  width: 100%;
-  height: auto;
+  width: 30%;
+  height: 20%;
+  margin-left: 400px;
+  border-radius: 50%;
 }
 .heading{
   color: white;
