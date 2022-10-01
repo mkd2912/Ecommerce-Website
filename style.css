@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -183,4 +184,52 @@ html {
   #navbar input[type=text] {
     border: 2px solid  black;
     height: 30px; 
+  }
+
+  /*offers design*/
+  .neonText {
+    animation: flicker 1s infinite alternate;
+    color:red;
+  }
+  
+ .offer h1 {
+    font-size: 4.2rem;    
+  }
+  
+  /* Flickering animation */
+  @keyframes flicker {
+      
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px rgb(0, 119, 255),
+        0 0 80px rgb(0, 191, 255),
+        0 0 90px rgb(153, 255, 0),
+        0 0 100px rgb(221, 0, 255),
+        0 0 150px rgb(255, 0, 89);
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+  
+  
+  /* Additional styling */
+    
+  .offer h2 {
+   font-size: 2.8rem;
+  }
+  .offer {
+    margin-top: 20vh;
+  }
+  
+  .offer h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
   }

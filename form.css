@@ -36,19 +36,19 @@ span{
     border: 1px solid black;
 }
 .container{
-  background-color:rgb(189, 218, 237)
+  background:none;
+  background-color: rgb(111, 225, 206);
 }
+
 img{
-  opacity: 3;
   width: 30%;
   height: 20%;
   margin-left: 400px;
   border-radius: 50%;
+  opacity: 10;
 }
 .heading{
   color: white;
   font-family:Arial;
   font-weight: 900;
-  background-color: brown;
-  background-size:20%;
 }
