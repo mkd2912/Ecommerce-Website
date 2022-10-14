@@ -81,17 +81,18 @@ html {
 
 }
 /*login and joinus*/
-.open-button {
-  color:black;
+.button {
+  background-color:#ccc; 
   border: none;
+  color:black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+  margin: 4px 4px 0 275px;
   cursor: pointer;
-  opacity: 0.9;
-  position: absolute;
-  bottom: 542px;
-  height: 30px;
-  right: 260px;
-  width: 140px;
-  margin-right: 5px;
 }
 
 /* The popup form - hidden by default */
@@ -164,7 +165,6 @@ html {
   .search-container {
     float: right;
     margin-top: 2px;
-    margin-left: 370px;
   }
   /*Designing search conatiner button*/
   .search-container button {
@@ -231,4 +231,7 @@ html {
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
+  }
+  .button:hover {
+    background:coral;
   }
