@@ -84,10 +84,9 @@ html {
 .open-button {
   color:black;
   border: none;
-  margin-top:50%;
   cursor: pointer;
   opacity: 0.9;
-  position: fixed;
+  position: absolute;
   bottom: 542px;
   height: 30px;
   right: 260px;
